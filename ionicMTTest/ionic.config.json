@@ -1,0 +1,7 @@
+{
+  "name": "ionicMTTest",
+  "integrations": {
+    "capacitor": {}
+  },
+  "type": "angular"
+}
