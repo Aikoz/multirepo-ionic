@@ -25,7 +25,7 @@ namespace UserApiMTchTest
             {
                 options.AddPolicy("AllowIonicApp", builder =>
                 {
-                    builder.WithOrigins("http://localhost:8101") 
+                    builder.WithOrigins("http://localhost:8100") 
                            .AllowAnyHeader()
                            .AllowAnyMethod();
                 });

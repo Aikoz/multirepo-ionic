@@ -19,7 +19,9 @@ export class UserListComponent implements OnInit {
 
       },
       error => {
-        console.error('Error fetching users:', error);
+        console.error('Hubo un error al obtener los datos, no te preocupes, intentalo mas tarde:', error);
+        this.users = [];
+
       }
     );
   }

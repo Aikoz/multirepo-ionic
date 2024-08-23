@@ -12,12 +12,21 @@
 </ion-header>
 
 <ion-content>
-  <ion-list>
+  <ion-list *ngIf="users.length > 0; else noUsers">
     <ion-item *ngFor="let user of users">
       <ion-label>
-        <h2>{{ user.name }}</h2>
-        <p>{{ user.email }}</p>
+        <h2>👤 {{ user.name }}</h2>
+        <p>📧 {{ user.email }}</p>
       </ion-label>
     </ion-item>
   </ion-list>
+
+  <ng-template #noUsers>
+    <ion-item>
+      <ion-label>
+        <h2>❌ Hubo un error al obtener los usuarios</h2>
+        <p>No te preocupes, intentalo de nuevo mas tarde 😁</p>
+      </ion-label>
+    </ion-item>
+  </ng-template>
 </ion-content>

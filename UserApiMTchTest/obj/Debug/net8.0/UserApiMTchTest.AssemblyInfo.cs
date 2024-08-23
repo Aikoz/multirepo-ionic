@@ -13,7 +13,7 @@ using System.Reflection;
 [assembly: System.Reflection.AssemblyCompanyAttribute("UserApiMTchTest")]
 [assembly: System.Reflection.AssemblyConfigurationAttribute("Debug")]
 [assembly: System.Reflection.AssemblyFileVersionAttribute("1.0.0.0")]
-[assembly: System.Reflection.AssemblyInformationalVersionAttribute("1.0.0+e28679243b85b2ad6f0ffec7f9102d35ea49a3a7")]
+[assembly: System.Reflection.AssemblyInformationalVersionAttribute("1.0.0+16244d8d2abe5f85b814587f1823418d359175ad")]
 [assembly: System.Reflection.AssemblyProductAttribute("UserApiMTchTest")]
 [assembly: System.Reflection.AssemblyTitleAttribute("UserApiMTchTest")]
 [assembly: System.Reflection.AssemblyVersionAttribute("1.0.0.0")]
